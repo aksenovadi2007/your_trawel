@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Russia tour</title>
+
+    <link rel="stylesheet" href="css/style3.css">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="header" id="forma">
+        <div class="header-overlay"></div>
+        <div class="header-container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">ТВОЕ ПУТЕШЕСТВИЕ</a>
+                <div class="nav-menu">
+                    <a href="#tours" class="nav-link">Направления</a>
+                    <a href="#hotel" class="nav-link">Курорты</a>
+                    <a href="#reservation" class="nav-link">Бронь</a>
+                    <img src="images/plane.png" alt="plane" class="nav-plane">
+                </div>
+            </nav>
+
+            <div class="header-content">
+                <div class="title-with-line">
+                    <div class="line-container">
+                        <img src="images/line.png" alt="line" class="small-line">
+                    </div>
+                    <h1 class="header-title">ПУТЕШЕСТВИЕ, КОТОРОЕ ВДОХНОВЛЯЕТ</h1>
+                </div>
+                <p class="header-text">Муждународные туры</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="popular-destinations" id="tours">
+        <div class="destinations-container">
+            <div class="destinations-header">
+                <div class="header-line">
+                    <img src="images/line.png" alt="small-line" class="small-line">
+                </div>
+                <h2 class="header-title" id="reserv">Популярные направления</h2>
+            </div>
+            
+            <div class="destinations-flex">
+                <a href="#france-resorts" class="destination-card" style="background-image: url('images/France.png')">
+                    <div class="destination-content">
+                        <h3 class="destination-title">Франция</h3>
+                    </div>
+                </a>
+                
+                <a href="#switzerland-resorts" class="destination-card" style="background-image: url('images/Swizerland.png')">
+                    <div class="destination-content">
+                        <h3 class="destination-title">Швейцария</h3>
+                    </div>
+                </a>
+                
+                <a href="#austria-resorts" class="destination-card" style="background-image: url('images/Austria.png')">
+                    <div class="destination-content">
+                        <h3 class="destination-title">Австрия</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="resorts-section" id="hotel">
+        <div class="resorts-container">
+            <div class="resorts-header">
+                <div class="header-line">
+                    <img src="images/line.png" alt="small-line" class="small-line">
+                </div>
+                <h2 class="header-title">Горнолыжные курорты</h2>
+            </div>
+
+            <div class="world-resorts">
+                <a href="#reserv" class="reserv"><h3 class="resort-title" id="france-resorts">Франция</h3></a>    
+                <div class="resorts-slider">
+                    <a href="#tour-reservation" class="tour-reservation"><div class="resort-slide" style="background-image: url('images/Courchevel.png')">
+                        <h4 class="resort-name">Куршевель</h4>
+                    </div></a>
+                    <a href="#tour-reservation" class="tour-reservation"><div class="resort-slide" style="background-image: url('images/Val-d-Isere.png')">
+                        <h4 class="resort-name">Валь д'Изер</h4>
+                    </div></a>
+                    <a href="#tour-reservation" class="tour-reservation"><div class="resort-slide" style="background-image: url('images/Avoriaz.png')">
+                        <h4 class="resort-name">Авориаз</h4>
+                    </div></a>
+                    <a href="#tour-reservation" class="tour-reservation"><div class="resort-slide" style="background-image: url('images/Chamonix.png')">
+                        <h4 class="resort-name">Шамони</h4>
+                    </div></a>
+                </div>
+            </div>
+
+            <div class="world-resorts">
+                <a href="#reserv" class="reserv"><h3 class="resort-title" id="switzerland-resorts">Швейцария</h3></a>  
+                <div class="resorts-slider">
+                    <a href="#tour-reservation" class="tour-reservation"><div class="resort-slide" style="background-image: url('images/Zermatt.png')">
+                        <h4 class="resort-name">Церматт</h4>
+                    </div></a>
+                    <a href="#tour-reservation" class="tour-reservation"><div class="resort-slide" style="background-image: url('images/Saint-Moritz.png')">
+                        <h4 class="resort-name">Санкт-Мориц</h4>
+                    </div></a>
+                    <a href="#tour-reservation" class="tour-reservation"><div class="resort-slide" style="background-image: url('images/Verbier.png')">
+                        <h4 class="resort-name">Вербье</h4>
+                    </div></a>
+                    <a href="#tour-reservation" class="tour-reservation"><div class="resort-slide" style="background-image: url('images/Laacks.png')">
+                        <h4 class="resort-name">Лаакс</h4>
+                    </div></a>
+                </div>
+            </div>
+
+            <div class="world-resorts">
+                <a href="#reserv" class="reserv"><h3 class="resort-title" id="austria-resorts">Австрия</h3></a>    
+                <div class="resorts-slider">
+                    <a href="#tour-reservation" class="tour-reservation"><div class="resort-slide long-name" style="background-image: url('images/Walter-Kaiser-Brixenthal.png')">
+                        <h4 class="resort-name">Вильдер Кайзер-Бриксенталь</h4>
+                    </div></a>
+                    <a href="#tour-reservation" class="tour-reservation"><div class="resort-slide long-name" style="background-image: url('images/Serfaus-Fiss-Ladis.png')">
+                        <h4 class="resort-name">Серфаус-Фисс-Ладис</h4>
+                    </div></a>
+                    <a href="#tour-reservation" class="tour-reservation"><div class="resort-slide" style="background-image: url('images/Mayrhofen.png')">
+                        <h4 class="resort-name">Майрхофен</h4>
+                    </div></a>
+                    <a href="#tour-reservation" class="tour-reservation"><div class="resort-slide" style="background-image: url('images/Bad-Gastein.png')">
+                        <h4 class="resort-name">Бад Гаштайн</h4>
+                    </div></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="booking-section" id="reservation">
+        <div class="booking-container">
+            <div class="booking-header" id="tour-reservation">
+                <div class="header-line">
+                    <img src="images/line.png" alt="small-line" class="small-line">
+                </div>
+                <h2 class="header-title">Бронирование международного тура</h2>
+            </div>
+            
+            <form class="booking-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label class="form-label">Направление</label>
+                        <select class="form-select">
+                            <option value="france">Франция</option>
+                            <option value="switzerland">Швейцария</option>
+                            <option value="austria">Австрия</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Дата начала</label>
+                        <input type="date" class="form-date" min="2025-12-01" max="2030-12-01">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Ночей</label>
+                        <select class="form-select">
+                            <option value="5">5 ночей</option>
+                            <option value="7">7 ночей</option>
+                            <option value="10">10 ночей</option>
+                            <option value="14">14 ночь</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label class="form-label">Горнолыжный курорт</label>
+                        <select class="form-select">
+                            <option value="eclair">Куршевель (Франция)</option>
+                            <option value="alpina">Валь д'Изер (Франция)</option>
+                            <option value="snow">Авориаз (Франция)</option>
+                            <option value="mountain">Шамони (Франция)</option>
+                            <option value="mountain">Церматт (Швейцария)</option>
+                            <option value="mountain">Санкт-Мориц (Швейцария)</option>
+                            <option value="mountain">Вербье (Швейцария)</option>
+                            <option value="mountain">Лаакс (Швейцария)</option>
+                            <option value="mountain">Вильдер Кайзер-Бриксенталь (Австрия)</option>
+                            <option value="mountain">Серфаус-Фисс-Ладис (Австрия)</option>
+                            <option value="mountain">Майрхофен (Австрия)</option>
+                            <option value="mountain">Бад Гаштайнрт (Австрия)</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Туристы</label>
+                        <div class="tourists-group">
+                            <div class="tourist-option">
+                                <label class="tourist-label">Взрослых</label>
+                                <select class="tourist-select">
+                                    <option value="1" selected>1</option>
+                                    <option value="2">2</option>
+                                    <option value="3" >3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </div>
+                            <div class="tourist-option">
+                                <label class="tourist-label">Детей</label>
+                                <select class="tourist-select">
+                                    <option value="0" selected>0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="form-divider"></div>
+                
+                <a href="#forma" class="booking-button forma">Забронировать</a>
+            </form>
+        </div>
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
