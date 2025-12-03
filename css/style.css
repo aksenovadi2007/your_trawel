@@ -805,7 +805,6 @@ html {
         height: 20px;
         margin-left: 8px;
     }
-
     
     .header {
         min-height: 650px;
@@ -825,7 +824,6 @@ html {
         font-size: 26px;
     }
 
-    
     .about-container {
         max-width: 900px;
         gap: 50px;
@@ -847,7 +845,6 @@ html {
         max-width: 500px;
     }
 
-
     .features-section {
         padding: 50px 0;
     }
@@ -867,7 +864,6 @@ html {
     .feature-title {
         font-size: 22px;
     }
-
 
     .directions-section {
         padding: 50px 0;
@@ -898,7 +894,6 @@ html {
         font-size: 17px;
     }
 
-    
     .reviews-section {
         padding: 30px 0 100px;
     }
@@ -919,7 +914,6 @@ html {
         min-height: 350px;
     }
 
-
     .review-header {
         margin-bottom: 10px;
         align-items: center;
@@ -938,7 +932,6 @@ html {
         max-width: 300px;
     }
 
-
     .slick-prev {
         margin-top: 285px;
         background-size: 50px;
@@ -950,7 +943,6 @@ html {
         background-size: 50px;
         right: 295px;
     }
-
     
     .contact-container {
         max-width: 900px;
@@ -1014,7 +1006,6 @@ html {
     .header-text {
         font-size: 24px;
     }
-
     
     .about-container {
         max-width: 800px;
@@ -1032,7 +1023,6 @@ html {
     .about-img {
         max-width: 450px;
     }
-
     
     .features-container {
         max-width: 800px;
@@ -1054,7 +1044,6 @@ html {
     .feature-title {
         font-size: 20px;
     }
-
     
     .directions-container {
         max-width: 800px;
@@ -1072,7 +1061,6 @@ html {
     .card-title {
         font-size: 26px;
     }
-
     
     .reviews-container {
         max-width: 800px;
@@ -1107,7 +1095,6 @@ html {
         max-width: 295px;
     }
 
-
     .slick-prev {
         margin-top: 355px;
         background-size: 50px;
@@ -1120,7 +1107,6 @@ html {
         right: 250px;
     }
 
-    
     .contact-container {
         max-width: 800px;
     }
@@ -1140,6 +1126,122 @@ html {
 
     .contact-blocks {
         gap: 15px;
+    }
+}
+
+@media (max-width: 900px) {
+    .about-container {
+        max-width: 665px;
+        gap: 40px;
+    }
+
+    .slick-prev {
+        left: 235px;
+        margin-top: 350px;
+    }
+    
+    .slick-next {
+        right: 235px;
+        margin-top: 350px;
+    }
+
+    .contact-image-link iframe {
+        width: 350px;
+        max-width: 500px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 800px) {
+    .header {
+        min-height: 550px;
+        padding: 25px 0;
+    }
+    
+    .navbar {
+        padding: 18px 30px;
+    }
+    
+    .nav-menu {
+        gap: 35px;
+    }
+    
+    .header-content {
+        padding-top: 170px;
+    }
+    
+    .header-title {
+        font-size: 36px;
+    }
+    
+    .header-text {
+        font-size: 24px;
+    }
+    
+    .about-container {
+        max-width: 700px;
+        gap: 40px;
+        align-items: center;
+    }
+
+    .title-with-number {
+        margin-left: 0;
+        justify-content: center;
+    }
+    
+    .about-title {
+        font-size: 36px;
+    }
+    
+    .features-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px 30px;
+    }
+    
+    .directions {
+        gap: 30px;
+    }
+    
+    .direction-card {
+        padding: 35px 25px;
+        max-width: 350px;
+    }
+
+    .reviews-header {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+    .review-card {
+        padding: 25px;
+    }
+    
+    .big-image-section {
+        flex: 0 0 300px;
+    }
+    
+    .big-img {
+        max-width: 280px;
+    }
+    
+    .slick-prev {
+        left: 200px;
+        margin-top: 350px;
+    }
+    
+    .slick-next {
+        right: 200px;
+        margin-top: 350px;
+    }
+    
+    .contact-title-wrapper {
+        text-align: center;
+    }
+    
+    .contact-image-link iframe {
+        width: 300px;
+        max-width: 300px;
+        height: 300px;
     }
 }
 
@@ -1224,9 +1326,8 @@ html {
 
     .about-img {
         display: block;
-        margin-left: 120px;
+        /* margin-left: 120px; */
     }
-
 
     .features-section {
         padding: 30px 0;
@@ -1249,7 +1350,6 @@ html {
     .feature-title {
         font-size: 20px;
     }
-
 
     .directions-section {
         padding: 40px 0;
@@ -1282,7 +1382,6 @@ html {
     .card-title {
         font-size: 28px;
     }
-
 
     .reviews-section {
         padding: 40px 0 80px;
@@ -1327,7 +1426,6 @@ html {
     .slick-dots {
        margin: 25px 0;
     }
-
 
     .contact-section {
         margin-bottom: 50px;
@@ -1381,7 +1479,6 @@ html {
         margin: 0 auto;
     }
 
-
     .slick-arrow {
         width: 40px;
         height: 40px;
@@ -1398,8 +1495,74 @@ html {
     }
 }
 
+@media (max-width: 710px) {
+    .slick-prev {
+        left: 195px;
+        margin-top: 387px;
+    }
+    
+    .slick-next {
+        right: 195px;
+        margin-top: 387px;
+    }
+}
 
-@media (max-width: 480px) {
+
+@media (max-width: 620px) {
+    .slick-prev {
+        left: 195px;
+        margin-top: 387px;
+    }
+    
+    .slick-next {
+        right: 195px;
+        margin-top: 387px;
+    }
+}
+
+@media (max-width: 560px) {
+    .features-grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px 30px;
+    }
+    
+    .direction-card {
+        max-width: 430px;
+        padding: 30px 20px;
+    }
+    
+    .slick-prev {
+        left: 135px;
+        margin-top: 395px;
+    }
+    
+    .slick-next {
+        right: 135px;
+        margin-top: 395px;
+    }
+    
+    .contact-image-link iframe {
+        width: 450px;
+        max-width: 480px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 540px) {
+    
+    .slick-prev {
+        left: 135px;
+        margin-top: 450px;
+    }
+    
+    .slick-next {
+        right: 135px;
+        margin-top: 450px;
+    }
+}
+
+
+@media (max-width: 490px) {
     .header {
         min-height: 500px;
         padding: 15px 0;
@@ -1459,7 +1622,6 @@ html {
         line-height: 1.4;
     }
 
-    
     .about-section {
         padding: 25px 0;
     }
@@ -1492,7 +1654,6 @@ html {
     .about-img {
         max-width: 100%;
     }
-
     
     .features-section {
         padding: 40px 0;
@@ -1533,7 +1694,6 @@ html {
         font-size: 15px;
     }
 
-
     .directions-section {
         padding: 40px 0;
     }
@@ -1568,7 +1728,6 @@ html {
     .card-text {
         font-size: 15px;
     }
-
 
     .reviews-section {
         padding: 40px 0 70px;
@@ -1648,7 +1807,6 @@ html {
         right: 125px;
         margin-top: 345px;
     }
-
     
     .contact-section {
         padding: 40px 0;
@@ -1778,7 +1936,6 @@ html {
         line-height: 1.5;
     }
 
-
     .about-section {
         padding: 30px 0;
     }
@@ -1805,7 +1962,6 @@ html {
         max-width: 300px;
         margin: 0 50px;
     }
-
 
     .features-section {
         padding: 30px 0;
@@ -1847,7 +2003,6 @@ html {
         font-size: 14px;
     }
 
-
     .directions-section {
         padding: 30px 0;
     }
@@ -1882,7 +2037,6 @@ html {
     .card-text {
         font-size: 16px;
     }
-
 
     .reviews-section {
         padding: 60px 0 80px;
@@ -1952,7 +2106,6 @@ html {
         border-radius: 25px;
     }
 
-
     .contact-section {
         padding: 40px 0;
     }
@@ -2015,7 +2168,6 @@ html {
         width: 100px;
     }
 
-
     .slick-arrow {
         width: 35px;
         height: 35px;
@@ -2039,6 +2191,19 @@ html {
         width: 10px;
         height: 10px;
     }
+}
+
+@media (max-width: 375px) {
+    .slick-prev {
+        left: 80px;
+        margin-top: 410px;
+    }
+    
+    .slick-next {
+        right: 80px;
+        margin-top: 410px;
+    }
+    
 }
 
 @media (max-width: 320px) {
@@ -2099,7 +2264,6 @@ html {
         font-size: 16px;
         line-height: 1.3;
     }
-
     
     .about-section {
         padding: 30px 0;
@@ -2128,7 +2292,6 @@ html {
     .big-line {
         max-width: 220px;
     }
-
     
     .features-section {
         padding: 30px 0;
@@ -2170,7 +2333,6 @@ html {
     .feature-text {
         font-size: 13px;
     }
-
     
     .directions-section {
         padding: 30px 0;
@@ -2206,7 +2368,6 @@ html {
     .card-text {
         font-size: 13px;
     }
-
     
     .reviews-section {
         padding: 30px 0 60px;
@@ -2292,7 +2453,6 @@ html {
         right: 75px;
     }
 
-    
     .contact-section {
         padding: 30px 0;
     }

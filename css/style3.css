@@ -623,7 +623,7 @@ html {
 
 @media (max-width: 1024px) {
     .resort-slide {
-        width: 320px;
+        width: 310px;
         height: 470px;
     }
 
@@ -644,6 +644,14 @@ html {
 
     .booking-section {
         background-attachment: fixed;
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .resort-slide {
+        width: 280px;
+        height: 470px;
     }
 }
 
@@ -691,6 +699,115 @@ html {
 
     .booking-section {
         background-attachment: fixed;
+    }
+}
+
+@media (max-width: 890px) {
+
+    .resorts-section {
+        padding: 85px 0;
+    }
+
+    .resorts-header {
+        gap: 25px;
+        margin-bottom: 50px;
+    }
+
+    .resort-title {
+        font-size: 34px;
+        margin-bottom: 35px;
+    }
+
+    .resort-slide {
+        width: 240px;
+        height: 390px;
+    }
+
+    .resort-name {
+        font-size: 32px;
+        padding: 180px 20px;
+    }
+
+    .resort-slide.long-name .resort-name {
+        padding: 200px 15px 150px 15px !important;
+        font-size: 26px !important;
+    }
+
+    .resorts-slider .slick-prev {
+        left: 260px;
+        margin-top: 265px;
+    }
+
+    .resorts-slider .slick-next {
+        right: 260px;
+        margin-top: 265px;
+    }
+
+    .booking-section {
+        background-attachment: fixed;
+    }
+}
+
+@media (max-width: 800px) {
+    .header {
+        min-height: 550px;
+    }
+    
+    .navbar {
+        padding: 15px 25px;
+    }
+    
+    .nav-menu {
+        gap: 30px;
+    }
+    
+    .header-content {
+        padding-top: 170px;
+    }
+    
+    .header-title {
+        font-size: 32px;
+    }
+    
+    .header-text {
+        font-size: 36px;
+    }
+    
+    .destination-card {
+        max-width: 220px;
+        height: 170px;
+    }
+    
+    .destination-title {
+        font-size: 28px;
+    }
+    
+    .resort-slide {
+        width: 230px;
+        height: 370px;
+    }
+    
+    .resort-name {
+        font-size: 28px;
+        padding: 150px 20px;
+    }
+    
+    .resorts-slider .slick-prev {
+        left: 200px;
+        margin-top: 220px;
+    }
+    
+    .resorts-slider .slick-next {
+        right: 200px;
+        margin-top: 220px;
+    }
+    
+    .booking-form {
+        padding: 30px;
+    }
+    
+    .form-row {
+        gap: 25px;
     }
 }
 
@@ -840,6 +957,56 @@ html {
 }
 
 
+@media (max-width: 690px) {
+    .resort-slide {
+        width: 170px;
+        height: 290px;
+    }
+
+    .resort-name {
+        font-size: 25px;
+        padding: 100px 20px;
+    }
+
+    .resort-slide.long-name .resort-name {
+        padding: 100px 15px 100px 15px !important;
+        font-size: 23px !important;
+    }
+}
+
+
+@media (max-width: 585px) {
+    .resorts-section {
+        padding: 85px 0;
+    }
+    
+    .resort-slide {
+        width: 140px;
+        height: 230px;
+    }
+
+    .resort-name {
+        font-size: 22px;
+        padding: 85px 22px;
+    }
+
+    .resort-slide.long-name .resort-name {
+        padding: 65px 15px 65px 15px !important;
+        font-size: 21px !important;
+    }
+
+    .resorts-slider .slick-prev {
+        margin-top: 180px;
+        margin-left: -95px;
+    }
+
+    .resorts-slider .slick-next {
+        margin-top: 180px;
+        margin-right: -95px;
+    }
+}
+
+
 @media (max-width: 480px) {
     .header {
         min-height: 480px;
@@ -939,19 +1106,19 @@ html {
     }
 
     .resort-slide {
-        width: 135px;
-        height: 235px;
+        width: 110px;
+        height: 225px;
         padding: 15px;
     }
 
     .resort-name {
-        font-size: 22px;
+        font-size: 17px;
         padding: 85px 7px;
     }
 
     .resort-slide.long-name .resort-name {
         padding: 80px 10px 65px 10px !important;
-        font-size: 19px !important;
+        font-size: 16px !important;
     }
 
     .resorts-slider .slick-arrow {
@@ -1148,19 +1315,19 @@ html {
     }
 
     .resort-slide {
-        width: 115px;
-        height: 240px;
+        width: 103px;
+        height: 215px;
         padding: 0px;
     }
 
     .resort-name {
-        font-size: 19px;
+        font-size: 15px;
         padding: 100px 0px;
     }
 
     .resort-slide.long-name .resort-name {
         padding: 60px 0px 90px 0px !important;
-        font-size: 17px !important;
+        font-size: 14px !important;
     }
 
     
@@ -1172,13 +1339,13 @@ html {
     .resorts-slider .slick-prev {
         left: 140px;
         background-size: 40px;
-        margin-top: 175px;
+        margin-top: 155px;
     }
 
     .resorts-slider .slick-next {
         right: 140px;
         background-size: 40px;
-        margin-top: 175px;
+        margin-top: 155px;
     }
 
     .resorts-slider .slick-dots {
@@ -1209,6 +1376,7 @@ html {
     .form-row {
         gap: 15px;
         align-items: center;
+        flex-direction: column;
     }
 
     .form-group {
@@ -1243,6 +1411,109 @@ html {
     .booking-button {
         font-size: 14px;
         padding: 10px;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .header {
+        min-height: 400px;
+        padding: 12px 0;
+    }
+    
+    .nav-menu {
+        gap: 15px;
+    }
+    
+    .nav-link {
+        font-size: 14px;
+    }
+    
+    .nav-plane {
+        width: 18px;
+        height: 18px;
+    }
+    
+    .header-content {
+        padding-top: 110px;
+    }
+    
+    .title-with-line {
+        gap: 8px;
+    }
+    
+    .small-line {
+        width: 45px;
+        margin-left: 15px;
+    }
+    
+    .header-title {
+        font-size: 22px;
+    }
+    
+    .header-text {
+        font-size: 22px;
+    }
+    
+    .destination-card {
+        padding: 25px 15px;
+        height: 150px;
+    }
+    
+    .destination-title {
+        font-size: 22px;
+    }
+    
+    .resort-slide {
+        width: 85px;
+        height: 160px;
+    }
+    
+    .resort-name {
+        font-size: 15px;
+        padding: 70px 10px;
+    }
+    
+    .resort-slide.long-name .resort-name {
+        padding: 70px 8px 65px 8px !important;
+        font-size: 12px !important;
+    }
+    
+    .resorts-slider .slick-prev {
+        left: 90px;
+        margin-top: 130px;
+    }
+    
+    .resorts-slider .slick-next {
+        right: 90px;
+        margin-top: 130px;
+    }
+    
+    .booking-title {
+        font-size: 24px;
+    }
+    
+    .booking-form {
+        padding: 20px 15px;
+    }
+    
+    .form-label {
+        font-size: 14px;
+    }
+    
+    .form-select, .form-date {
+        padding: 8px 10px;
+        font-size: 13px;
+    }
+    
+    .tourists-group {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .booking-button {
+        font-size: 15px;
+        padding: 12px;
     }
 }
 
