@@ -217,9 +217,16 @@
                     </div>
                 </div>
                 
-                <div class="form-divider"></div>
-                
-                <a href="#forma" class="booking-button forma">Забронировать</a>
+                <dialog id="save-dialog" class="reserv-tour">
+                    <p class="res-text">Тур успешно забронирован!</p>
+                    <button class="res-but" type="button" onclick="window['save-dialog'].close()">
+                        ок
+                    </button>
+                </dialog>
+
+                <button type="button" class="reservation-btn" onclick="window['save-dialog'].showModal()" aria-controls="save-dialog">
+                    Забронировать
+                </button>
             </form>
         </div>
     </section>
