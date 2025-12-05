@@ -2194,15 +2194,27 @@ html {
 }
 
 @media (max-width: 375px) {
+    .about-container {
+        gap: 35px;
+        padding: 0 5px;
+    }  
+    .big-line {
+        max-width: 300px;
+        margin: 0;
+    }
     .slick-prev {
-        left: 80px;
-        margin-top: 410px;
+        left: 60px;
+        margin-top: 450px;
     }
     
     .slick-next {
-        right: 80px;
-        margin-top: 410px;
+        right: 60px;
+        margin-top: 450px;
     }
+    
+}
+
+@media (max-width: 35px) {
     
 }
 
