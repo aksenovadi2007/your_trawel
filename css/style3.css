@@ -593,29 +593,71 @@ html {
     margin: 30px 0;
 }
 
-.booking-button {
-    display: block;
-    width: 100%;
-    padding: 15px;
-    background: linear-gradient(135deg, #FEEAA1 0%, #f0d87a 100%);
-    border-radius: 8px;
+.reserv-tour {
+    margin: auto;
+    padding: 30px;
+    width: 320px;
+    height: 200px;
+    background: linear-gradient(135deg, rgba(29, 41, 53, 0.95) 0%, rgba(21, 28, 36, 0.95) 100%);
+    border: 2px solid rgba(254, 234, 161, 0.3);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.res-text {
+    font-family: "PT Serif", serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #FEEAA1;
+    margin-bottom: 25px;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.res-but {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
     color: #1a2a3a;
+    padding: 12px 30px;
+    background: #FEEAA1;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 0 auto;
+    display: block;
+    min-width: 120px;
+}
+
+.res-but:hover {
+    background: #f0d87a;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(254, 234, 161, 0.3);
+}
+
+.reservation-btn {
+    padding: 15px;
+    background: linear-gradient(180deg, #FEEAA1 0%, #f0d87a 100%);
+    color: #1a2a3a;
+    border: none;
+    border-radius: 8px;
     font-family: "PT Serif", serif;
     font-weight: 600;
     font-size: 18px;
     cursor: pointer;
     transition: all 0.3s ease;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
     text-transform: uppercase;
     letter-spacing: 1px;
-    text-decoration: none;
-    text-align: center;
 }
 
-.forma {
-    text-decoration: none;
-}
-
-.booking-button:hover {
+.reservation-btn:hover {
+    background: #FEEAA1;
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(254, 234, 161, 0.3);
 }
@@ -644,6 +686,22 @@ html {
 
     .booking-section {
         background-attachment: fixed;
+    }
+
+    .reserv-tour {
+        width: 280px;
+        height: 180px;
+        padding: 25px;
+    }
+    
+    .res-text {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .res-but {
+        font-size: 18px;
+        padding: 10px 25px;
     }
 }
 
@@ -902,7 +960,6 @@ html {
         font-size: 24px !important;
     }
 
-    
     .resorts-slider .slick-prev {
         margin-top: 200px;
         margin-left: -60px;
@@ -950,9 +1007,21 @@ html {
         padding: 10px 12px;
     }
 
-    .booking-button {
+    .reserv-tour {
+        width: 240px;
+        height: 160px;
+        padding: 20px;
+    }
+    
+    .res-text {
+        font-size: 18px;
+        margin-bottom: 18px;
+    }
+    
+    .res-but {
         font-size: 16px;
-        padding: 12px;
+        padding: 10px 20px;
+        min-width: 100px;
     }
 }
 
@@ -1201,10 +1270,26 @@ html {
         margin: 25px 0;
     }
 
-    .booking-button {
-        font-size: 15px;
-        padding: 12px;
+    .reserv-tour {
+        width: 200px;
+        height: 140px;
+        padding: 15px;
+        border-radius: 12px;
     }
+    
+    .res-text {
+        font-size: 16px;
+        margin-bottom: 15px;
+        line-height: 1.3;
+    }
+    
+    .res-but {
+        font-size: 14px;
+        padding: 8px 16px;
+        min-width: 90px;
+        border-radius: 6px;
+    }
+    
 }
 
 
@@ -1408,10 +1493,7 @@ html {
         margin: 20px 0;
     }
 
-    .booking-button {
-        font-size: 14px;
-        padding: 10px;
-    }
+    
 }
 
 
@@ -1511,9 +1593,21 @@ html {
         gap: 10px;
     }
     
-    .booking-button {
-        font-size: 15px;
+    .reserv-tour {
+        width: 180px;
+        height: 130px;
         padding: 12px;
+    }
+    
+    .res-text {
+        font-size: 15px;
+        margin-bottom: 12px;
+    }
+    
+    .res-but {
+        font-size: 13px;
+        padding: 7px 14px;
+        min-width: 80px;
     }
 }
 
@@ -1727,9 +1821,21 @@ html {
         margin: 15px 0;
     }
 
-    .booking-button {
-        font-size: 13px;
+    .reserv-tour {
+        width: 160px;
+        height: 120px;
         padding: 10px;
-        border-radius: 5px;
+        border: 1.5px solid rgba(254, 234, 161, 0.3);
+    }
+    
+    .res-text {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    
+    .res-but {
+        font-size: 12px;
+        padding: 6px 12px;
+        min-width: 70px;
     }
 }
